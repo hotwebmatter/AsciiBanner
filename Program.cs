@@ -31,23 +31,23 @@ namespace AsciiBanner
             RepeatChar("#", bannerWidth);
             WriteLine();
 
-            Write("# Programming Assignment #{0}", assignment);
-            RepeatChar(" ", 27 - assignment.Length);
-            WriteLine("#");
+            Write("##    Programming Assignment #{0}", assignment);
+            RepeatChar(" ", 22 - assignment.Length);
+            WriteLine("##");
 
-            Write("# Developer: {0}", name);
-            RepeatChar(" ", 40 - name.Length);
-            WriteLine("#");
+            Write("##    Developer: {0}", name);
+            RepeatChar(" ", 35 - name.Length);
+            WriteLine("##");
 
-            Write("# Date Submitted: {0} #", date);
-            RepeatChar(" ", 40 - date.Length);
-            WriteLine("#");
+            Write("##    Date Submitted: {0}", date);
+            RepeatChar(" ", 30 - date.Length);
+            WriteLine("##");
 
-            Write("# Purpose: {0} #", purpose);
-            RepeatChar(" ", 40 - purpose.Length);
-            WriteLine("#");
+            Write("##    Purpose: {0}", purpose);
+            RepeatChar(" ", 37 - purpose.Length);
+            WriteLine("##");
 
-            RepeatChar("#", 54);
+            RepeatChar("#", bannerWidth);
 
         }
     }
