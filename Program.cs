@@ -31,6 +31,11 @@ namespace AsciiBanner
             RepeatChar("#", bannerWidth);
             WriteLine();
 
+            /*
+             * TODO: refactor to use bannerWidth to calculate spacing
+             *       instead of relying on hard-coded "magic numbers"
+             */
+
             Write("##    Programming Assignment #{0}", assignment);
             RepeatChar(" ", 22 - assignment.Length);
             WriteLine("##");
