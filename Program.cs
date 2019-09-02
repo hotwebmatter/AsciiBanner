@@ -40,18 +40,18 @@ namespace AsciiBanner
             RepeatChar("#", bannerWidth);
             WriteLine();
 
-/*
- * TODO: refactor to use bannerWidth to calculate spacing
- *       instead of relying on hard-coded "magic numbers"
- */
+            /*
+             * TODO: refactor to use bannerWidth to calculate spacing
+             *       instead of relying on hard-coded "magic numbers"
+             */
 
-/*
- * TODO: if purpose.Length exceeds space available, either
- *       ask for a shorter "purpose" string, or create an
- *       algorithm to break purpose across multiple lines
- */
+            /*
+             * TODO: if purpose.Length exceeds space available, either
+             *       ask for a shorter "purpose" string, or create an
+             *       algorithm to break purpose across multiple lines
+             */
 
-Write("##    Programming Assignment #{0}", assignment);
+            Write("##    Programming Assignment #{0}", assignment);
             RepeatChar(" ", 22 - assignment.Length);
             WriteLine("##");
 
