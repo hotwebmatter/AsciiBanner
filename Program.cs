@@ -1,6 +1,15 @@
 ﻿using System;
 using static System.Console;
 
+/*
+ * ######################################################
+ * ##    Programming Assignment #2                     ##
+ * ##    Developer: Matthew Obert                      ##
+ * ##    Date Submitted: September 01 2019             ##
+ * ##    Purpose: Provide internal documentation.      ##
+ * ######################################################
+ */
+
 namespace AsciiBanner
 {
     class Program
@@ -17,7 +26,7 @@ namespace AsciiBanner
             // variable declaration
             const int bannerWidth = 54;
             const string name = "Matthew Obert";
-            string date = DateTime.Now.ToString("MMMM dd");
+            string date = DateTime.Now.ToString("MMMM dd yyyy");
             string assignment;
             string purpose;
 
