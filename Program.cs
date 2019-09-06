@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-/*
+/**
  * ######################################################
  * ##    Programming Assignment #2                     ##
  * ##    Developer: Matthew Obert                      ##
