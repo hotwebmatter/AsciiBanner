@@ -37,6 +37,7 @@ namespace AsciiBanner
             purpose = ReadLine();
 
             // output
+            Write("/**\n * ");
             RepeatChar("#", bannerWidth);
             WriteLine();
 
@@ -51,24 +52,26 @@ namespace AsciiBanner
              *       algorithm to break purpose across multiple lines
              */
 
-            Write("##    Programming Assignment #{0}", assignment);
+            Write(" * ##    Programming Assignment #{0}", assignment);
             RepeatChar(" ", 22 - assignment.Length);
             WriteLine("##");
 
-            Write("##    Developer: {0}", name);
+            Write(" * ##    Developer: {0}", name);
             RepeatChar(" ", 35 - name.Length);
             WriteLine("##");
 
-            Write("##    Date Submitted: {0}", date);
+            Write(" * ##    Date Submitted: {0}", date);
             RepeatChar(" ", 30 - date.Length);
             WriteLine("##");
 
-            Write("##    Purpose: {0}", purpose);
+            Write(" * ##    Purpose: {0}", purpose);
             RepeatChar(" ", 37 - purpose.Length);
             WriteLine("##");
 
+            Write(" * ");
             RepeatChar("#", bannerWidth);
-
+            WriteLine();
+            WriteLine(" */");
         }
     }
 }
