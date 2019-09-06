@@ -1,6 +1,3 @@
-﻿using System;
-using static System.Console;
-
 /**
  * ######################################################
  * ##    Programming Assignment #2                     ##
@@ -9,6 +6,9 @@ using static System.Console;
  * ##    Purpose: Provide internal documentation.      ##
  * ######################################################
  */
+
+using System;
+using static System.Console;
 
 namespace AsciiBanner
 {
