@@ -1,6 +1,8 @@
 # AsciiBanner
 
-Second assignment for C# class,
+Second assignment for C# class.
+
+Not actually assigned by professor, just based on exercise in textbook.
 
 Generates ASCII banner to be used in all assignments.
 
